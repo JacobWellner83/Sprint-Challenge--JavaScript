@@ -6,6 +6,9 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
+consume (x, y, cb(){
+  
+})
 
 
 /* Step 2: Create several functions to callback with consume();
@@ -40,3 +43,5 @@ function myFunction() {
   nestedFunction();
 }
 myFunction();
+
+//'nestedFunction is capable of reaching outside of itself to reference what it is acting upon. If 'internal' were instead existant within a function nested inside fo 'nestedFunction' it would remain inaccessable to 'nestedFunction'.
