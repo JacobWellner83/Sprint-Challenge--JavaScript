@@ -155,9 +155,10 @@ console.log(largerPopulation);
 The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
 
 */
-const populationTotal = 0;
-console.log(populationTotal);
+let populationTotal = [];
+populationTotal = zooAnimals.reduce((total, amountNow) => total + amountNow.population, 0)
 
+console.log(populationTotal);
 
 /* 
 
